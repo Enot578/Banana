@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+header, footer {
+    height: 15vh;
+    background-color: yellow;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qwe, .asd {
+    width: 18vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: orange;
+
+    border-radius: 6.5px;
+}
+
+.qwe img, .asd img {
+    width: 25%;
+}
+
+.qwe p, .asd p {
+    font-size: 2vw;
+}
+
+main {
+    height: 70vh;
+    overflow: scroll;
+}
+
+main p {
+    font-size: 20px;
+}
+
+main img {
+    width: 35%;
+    float: left;
+}
+
+.zxc {
+    margin-top: 30%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.zxc_1, .zxc_2, .zxc_3, .zxc_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+
+    height: 14.5vh;
+}
+
+footer img {
+    width: 35%;
+}
